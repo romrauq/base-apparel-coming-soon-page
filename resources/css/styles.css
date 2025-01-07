@@ -1,0 +1,89 @@
+@font-face {
+	font-family: Josefin;
+	src: url("../fonts/JosefinSans-VariableFont_wght.ttf");
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.main-container {
+	font-family: Josefin;
+	font-size: 16px;
+	height: 100vh;
+}
+.content-row {
+	display: flex;
+}
+.text-column {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	padding: 40px 0 0 200px;
+	/* background-color: red; */
+}
+.logo-image {
+	position: absolute;
+	top: 30px;
+	left: 200px;
+}
+.heading-text {
+	position: relative;
+	font-size: 64px;
+	font-weight: 400;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	width: 50px;
+	margin: 15% 0 20px 0;
+}
+.higlighted-text {
+	font-weight: 300;
+	color: hsl(0, 36%, 70%);
+}
+.description-text {
+	color: hsl(0, 36%, 70%);
+	width: 500px;
+	line-height: 30px;
+	margin: 0 0 20px 0;
+}
+.imput-row {
+	display: flex;
+	width: 500px;
+}
+.input-field {
+	font-family: Josefin;
+	width: 100%;
+	padding: 15px 25px;
+	border: 1px solid hsla(0, 6%, 24%, 0.3);
+	border-radius: 30px;
+}
+.input-image-div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px 40px;
+	margin: 0 0 0 -40px;
+	background: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+	border-radius: 40px;
+	box-shadow: 0 10px 15px rgba(128, 128, 128, 0.3);
+	cursor: pointer;
+}
+.input-button-image {
+	height: 20px;
+}
+.image-column {
+	flex: 1;
+	height: 100vh;
+	background-image: url("../images/hero-desktop.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: auto;
+	background-color: pink;
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
