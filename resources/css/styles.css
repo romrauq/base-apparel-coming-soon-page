@@ -20,7 +20,6 @@
 	flex-direction: column;
 	flex: 1;
 	padding: 40px 0 0 200px;
-	/* background-color: red; */
 }
 .logo-image {
 	position: absolute;
@@ -29,6 +28,7 @@
 }
 .heading-text {
 	position: relative;
+	color: hsl(0, 6%, 24%);
 	font-size: 64px;
 	font-weight: 400;
 	letter-spacing: 10px;
@@ -82,7 +82,6 @@
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: auto;
-	background-color: pink;
 }
 .hero-image-desktop {
 	display: block;
@@ -132,6 +131,7 @@
 	}
 	.heading-text {
 		font-size: 40px;
+		font-weight: 600;
 		text-align: center;
 		text-transform: uppercase;
 		width: 60%;
