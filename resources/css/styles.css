@@ -56,6 +56,9 @@
 	border: 1px solid hsla(0, 6%, 24%, 0.3);
 	border-radius: 30px;
 }
+.input-field:focus {
+	outline: none;
+}
 .input-image-div {
 	display: flex;
 	align-items: center;
@@ -74,6 +77,10 @@
 }
 .input-button-image {
 	height: 20px;
+}
+.alert-text {
+	color: hsl(0, 93%, 68%);
+	margin: 10px 0 0 26px;
 }
 .hero-image-desktop {
 	display: block;
@@ -124,6 +131,10 @@
 	}
 	.input-row {
 		width: 90%;
-		margin: 0 auto 50px;
+		margin: 0 auto 0;
+	}
+	.alert-text {
+		color: hsl(0, 93%, 68%);
+		margin: 10px 0 50px 45px;
 	}
 }
