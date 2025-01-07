@@ -79,11 +79,16 @@
 .image-column {
 	flex: 1;
 	height: 100vh;
-	background-image: url("../images/hero-desktop.jpg");
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: auto;
 	background-color: pink;
+}
+.hero-image-desktop {
+	display: block;
+}
+.hero-image-mobile {
+	display: none;
 }
 .attribution {
 	font-size: 11px;
@@ -91,4 +96,55 @@
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+@media (max-width: 475px) {
+	.main-container {
+		width: 100vw;
+	}
+	.content-row {
+		flex-direction: column-reverse;
+		margin: 110px 0 0 0;
+	}
+	.logo-image {
+		position: absolute;
+		top: 40px;
+		left: 40px;
+	}
+	.image-column {
+		flex: none;
+		height: fit-content;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+	.hero-image-desktop {
+		display: none;
+	}
+	.hero-image-mobile {
+		display: block;
+	}
+	.text-column {
+		flex: none;
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+	}
+	.heading-text {
+		font-size: 40px;
+		text-align: center;
+		text-transform: uppercase;
+		width: 60%;
+		margin: 60px auto 20px;
+	}
+	.description-text {
+		color: hsl(0, 36%, 70%);
+		width: 90%;
+		text-align: center;
+		line-height: 30px;
+		margin: 0 auto 20px;
+	}
+	.imput-row {
+		width: 90%;
+		margin: 0 auto;
+	}
 }
