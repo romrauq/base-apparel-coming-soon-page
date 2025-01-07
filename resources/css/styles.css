@@ -10,7 +10,6 @@
 .main-container {
 	font-family: Josefin;
 	font-size: 16px;
-	height: 100vh;
 }
 .content-row {
 	display: flex;
@@ -78,13 +77,13 @@
 }
 .image-column {
 	flex: 1;
-	height: 100vh;
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: auto;
 }
 .hero-image-desktop {
 	display: block;
+	height: 100vh;
 }
 .hero-image-mobile {
 	display: none;
