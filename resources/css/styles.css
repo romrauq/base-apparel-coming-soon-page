@@ -75,12 +75,6 @@
 .input-button-image {
 	height: 20px;
 }
-.image-column {
-	flex: 1;
-	background-repeat: no-repeat;
-	background-position: right;
-	background-size: auto;
-}
 .hero-image-desktop {
 	display: block;
 	height: 100vh;
@@ -100,13 +94,6 @@
 		position: absolute;
 		top: 40px;
 		left: 40px;
-	}
-	.image-column {
-		flex: none;
-		height: fit-content;
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
 	}
 	.hero-image-desktop {
 		display: none;
@@ -135,8 +122,8 @@
 		line-height: 30px;
 		margin: 0 auto 20px;
 	}
-	.imput-row {
+	.input-row {
 		width: 90%;
-		margin: 0 auto;
+		margin: 0 auto 50px;
 	}
 }
